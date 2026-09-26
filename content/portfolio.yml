@@ -1,1 +1,28 @@
+personal:
+  name: "John Paul"
+  title: "Fashion & Commercial Model"
+  hero_description: "Fashion, commercial and lifestyle model available for campaigns, shoots, runway and brand collaborations."
+  about_description: "John Paul is a fashion and commercial model with a strong presence in front of the camera. His work covers fashion, lifestyle, advertising and visual campaigns. He is available for fashion shoots, commercial campaigns, runway, lookbooks, social media content and brand collaborations."
 
+measurements:
+  height: "6'0"
+  chest: "35"
+  waist: "28"
+  trouser_length: "42"
+  shoe_size: "42"
+  eyes: "Black"
+
+contact:
+  whatsapp: "2348107674578"
+  email: "johnpaulalexodigbo92@gmail.com"
+  instagram: "@johnpaul.1234"
+
+portfolio_images:
+  - image: ""
+    alt: "John Paul fashion model"
+
+  - image: ""
+    alt: "John Paul commercial model"
+
+  - image: ""
+    alt: "John Paul male model"
