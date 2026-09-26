@@ -1,0 +1,92 @@
+backend:
+  name: github
+  repo: TemitopeMayowa/johnpaul-portfolio
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "portfolio"
+    label: "Portfolio"
+    files:
+      - name: "content"
+        label: "Portfolio Content"
+        file: "content/portfolio.yml"
+        fields:
+
+          - label: "Personal Information"
+            name: "personal"
+            widget: "object"
+            fields:
+              - label: "Name"
+                name: "name"
+                widget: "string"
+
+              - label: "Professional Title"
+                name: "title"
+                widget: "string"
+
+              - label: "Hero Description"
+                name: "hero_description"
+                widget: "text"
+
+              - label: "About Description"
+                name: "about_description"
+                widget: "text"
+
+          - label: "Measurements"
+            name: "measurements"
+            widget: "object"
+            fields:
+              - label: "Height"
+                name: "height"
+                widget: "string"
+
+              - label: "Chest"
+                name: "chest"
+                widget: "string"
+
+              - label: "Waist"
+                name: "waist"
+                widget: "string"
+
+              - label: "Trouser Length"
+                name: "trouser_length"
+                widget: "string"
+
+              - label: "Shoe Size"
+                name: "shoe_size"
+                widget: "string"
+
+              - label: "Eyes"
+                name: "eyes"
+                widget: "string"
+
+          - label: "Contact"
+            name: "contact"
+            widget: "object"
+            fields:
+              - label: "WhatsApp Number"
+                name: "whatsapp"
+                widget: "string"
+
+              - label: "Email"
+                name: "email"
+                widget: "string"
+
+              - label: "Instagram"
+                name: "instagram"
+                widget: "string"
+
+          - label: "Portfolio Images"
+            name: "portfolio_images"
+            widget: "list"
+            fields:
+              - label: "Image"
+                name: "image"
+                widget: "image"
+
+              - label: "Alt Text"
+                name: "alt"
+                widget: "string"
