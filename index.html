@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<link rel="icon" type="image/png" href="images/IMG_4202.jpeg">
+<head>
+  <meta charset="UTF-8">
+
+
+  <!-- SEO -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="John Paul is a fashion and commercial model available for fashion campaigns, commercial shoots, runway, lookbooks and brand collaborations.">
+  <meta name="keywords" content="John Paul model, fashion model Nigeria, commercial model Nigeria, male model, Abuja model, fashion campaigns, commercial shoots">
+  <meta name="author" content="John Paul Alex Odigbo">
+
+  <meta property="og:title" content="John Paul | Fashion & Commercial Model">
+  <meta property="og:description" content="Portfolio of John Paul, a fashion and commercial model available for campaigns, shoots, runway and brand collaborations.">
+  <meta property="og:type" content="website">
+
+  <title>John Paul Portfolio</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: #fff;
+      color: #111;
+      line-height: 1.6;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    /* NAVIGATION */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: #fff;
+      border-bottom: 1px solid #e5e5e5;
+      padding: 18px 6%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 1.1rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
+
+    nav ul {
+      display: flex;
+      list-style: none;
+      gap: 30px;
+    }
+
+    nav a {
+      font-size: 0.9rem;
+      color: #333;
+      transition: 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #888;
+    }
+
+    /* GENERAL */
+    section {
+      padding: 90px 7%;
+    }
+
+    .section-title {
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: 35px;
+      letter-spacing: -0.5px;
+    }
+
+    /* HERO */
+    .hero {
+      min-height: 90vh;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      gap: 60px;
+      padding: 70px 7%;
+    }
+
+    .hero-text {
+      max-width: 550px;
+    }
+
+    .hero-text p {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      color: #666;
+      margin-bottom: 15px;
+    }
+
+    .hero-text h1 {
+      font-size: clamp(3rem, 7vw, 6rem);
+      line-height: 0.95;
+      font-weight: 700;
+      letter-spacing: -3px;
+      margin-bottom: 25px;
+    }
+
+    .hero-text h2 {
+      font-size: 1.2rem;
+      font-weight: 400;
+      color: #444;
+      margin-bottom: 30px;
+    }
+
+    .hero-image img {
+      height: 650px;
+      object-fit: cover;
+    }
+
+    .button {
+      display: inline-block;
+      background: #111;
+      color: #fff;
+      padding: 13px 25px;
+      font-size: 0.9rem;
+      transition: 0.3s ease;
+    }
+
+    .button:hover {
+      background: #333;
+    }
+
+    /* ABOUT */
+    .about {
+      background: #f7f7f7;
+      display: grid;
+      grid-template-columns: 1fr 1.2fr;
+      gap: 70px;
+      align-items: center;
+    }
+
+    .about-image img {
+      height: 550px;
+      object-fit: cover;
+    }
+
+    .about-content {
+      max-width: 650px;
+    }
+
+    .about-content p {
+      color: #444;
+      margin-bottom: 30px;
+      font-size: 1rem;
+    }
+
+    /* MEASUREMENTS */
+    .measurements {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      border-top: 1px solid #ddd;
+      border-left: 1px solid #ddd;
+    }
+
+    .measurement {
+      padding: 20px;
+      border-right: 1px solid #ddd;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .measurement span {
+      display: block;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #777;
+      margin-bottom: 5px;
+    }
+
+    .measurement strong {
+      font-size: 1rem;
+      font-weight: 600;
+    }
+
+    /* PORTFOLIO */
+    .portfolio {
+      background: #fff;
+    }
+
+    .portfolio-intro {
+      color: #666;
+      max-width: 600px;
+      margin-bottom: 35px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px;
+    }
+
+    .gallery-item {
+      overflow: hidden;
+      background: #eee;
+    }
+
+    .gallery-item img {
+      height: 500px;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+    }
+
+    .gallery-item:hover img {
+      transform: scale(1.03);
+    }
+
+    /* BOOKING */
+    .booking {
+      background: #111;
+      color: #fff;
+      text-align: center;
+      padding: 100px 7%;
+    }
+
+    .booking h2 {
+      font-size: clamp(2rem, 5vw, 4rem);
+      margin-bottom: 15px;
+      letter-spacing: -1px;
+    }
+
+    .booking p {
+      color: #ccc;
+      max-width: 600px;
+      margin: 0 auto 30px;
+    }
+
+    .booking .button {
+      background: #fff;
+      color: #111;
+    }
+
+    .booking .button:hover {
+      background: #ddd;
+    }
+
+    .contact-links {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      flex-wrap: wrap;
+    }
+
+    .contact-links a {
+      color: #ddd;
+      font-size: 0.9rem;
+      border-bottom: 1px solid #555;
+      padding-bottom: 3px;
+    }
+
+    /* FOOTER */
+    footer {
+      background: #111;
+      color: #777;
+      text-align: center;
+      padding: 25px;
+      font-size: 0.8rem;
+      border-top: 1px solid #333;
+    }
+
+    /* TABLET */
+    @media (max-width: 900px) {
+
+      .hero {
+        grid-template-columns: 1fr;
+        padding-top: 50px;
+      }
+
+      .hero-image {
+        order: -1;
+      }
+
+      .hero-image img {
+        height: 600px;
+      }
+
+      .about {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+
+      .about-image img {
+        height: 500px;
+      }
+
+      .gallery {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    /* MOBILE */
+    @media (max-width: 600px) {
+
+      header {
+        padding: 15px 5%;
+      }
+
+      .logo {
+        font-size: 0.95rem;
+      }
+
+      nav ul {
+        gap: 14px;
+      }
+
+      nav a {
+        font-size: 0.75rem;
+      }
+
+      section {
+        padding: 65px 5%;
+      }
+
+      .hero {
+        min-height: auto;
+        padding: 35px 5% 70px;
+        gap: 35px;
+      }
+
+      .hero-image img {
+        height: 480px;
+      }
+
+      .hero-text h1 {
+        font-size: 3.5rem;
+        letter-spacing: -2px;
+      }
+
+      .hero-text h2 {
+        font-size: 1rem;
+      }
+
+      .section-title {
+        font-size: 1.7rem;
+      }
+
+      .about-image img {
+        height: 450px;
+      }
+
+      .measurements {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .measurement {
+        padding: 15px;
+      }
+
+      .gallery {
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+      }
+
+      .gallery-item img {
+        height: 320px;
+      }
+
+      .booking {
+        padding: 75px 5%;
+      }
+
+      .contact-links {
+        flex-direction: column;
+        gap: 15px;
+      }
+    }
+
+    @media (max-width: 380px) {
+
+      nav ul {
+        gap: 9px;
+      }
+
+      nav a {
+        font-size: 0.7rem;
+      }
+
+      .hero-text h1 {
+        font-size: 3rem;
+      }
+
+      .gallery-item img {
+        height: 280px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+  <header>
+    <div class="logo">JOHN PAUL</div>
+
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <!-- HERO -->
+  <section class="hero">
+
+    <div class="hero-text">
+      <p>Fashion & Commercial Model</p>
+
+      <h1>John<br>Paul.</h1>
+
+      <h2>
+        Fashion, commercial and lifestyle model available
+        for campaigns, shoots, runway and brand collaborations.
+      </h2>
+
+      <a href="#contact" class="button">Book John Paul</a>
+    </div>
+
+    <div class="hero-image">
+      <img
+        src="images/POLAROID USED.jpeg"
+        alt="John Paul fashion and commercial model"
+      >
+    </div>
+
+  </section>
+
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+
+    <div class="about-image">
+      <img
+        src="images/POLAROID1 (2).jpeg"
+        alt="John Paul professional model portrait"
+      >
+    </div>
+
+    <div class="about-content">
+
+      <h2 class="section-title">About John Paul</h2>
+
+      <p>
+        John Paul is a fashion and commercial model with a strong
+        presence in front of the camera. His work covers fashion,
+        lifestyle, advertising and visual campaigns.
+      </p>
+
+      <p>
+        He is available for fashion shoots, commercial campaigns,
+        runway, lookbooks, social media content and brand
+        collaborations.
+      </p>
+
+      <div class="measurements">
+
+        <div class="measurement">
+          <span>Height</span>
+          <strong>6'0 (128cm)"</strong>
+        </div>
+
+        <div class="measurement">
+          <span>Chest</span>
+          <strong>35"</strong>
+        </div>
+
+        <div class="measurement">
+          <span>Waist</span>
+          <strong>28"</strong>
+        </div>
+
+        <div class="measurement">
+          <span>Trouser Length</span>
+          <strong>42"</strong>
+        </div>
+
+        <div class="measurement">
+          <span>Shoe Size</span>
+          <strong>42</strong>
+        </div>
+
+        <div class="measurement">
+          <span>Eyes</span>
+          <strong>Black</strong>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- PORTFOLIO -->
+  <section class="portfolio" id="portfolio">
+
+    <h2 class="section-title">Portfolio</h2>
+
+    <p class="portfolio-intro">
+      A selection of John Paul's fashion, commercial and
+      editorial work.
+    </p>
+
+    <div class="gallery">
+
+      <div class="gallery-item">
+        <img src="images/IMG_1630.jpeg" alt="John Paul fashion model">
+      </div>
+
+      <div class="gallery-item">
+        <img src="images/IMG_4252.jpeg" alt="John Paul commercial model">
+      </div>
+
+      <div class="gallery-item">
+        <img src="images/JP 1.jpg" alt="John Paul male model">
+      </div>
+
+      <div class="gallery-item">
+        <img src="images/Jp new 2.jpg" alt="John Paul fashion photoshoot">
+      </div>
+
+      <div class="gallery-item">
+        <img src="images/IMG_4250.jpeg" alt="John Paul model portfolio">
+      </div>
+
+      <div class="gallery-item">
+        <img src="images/IMG_4287.jpeg" alt="John Paul commercial photoshoot">
+      </div>
+
+      <div class="gallery-item">
+        <img src="images/JP2.jpg" alt="John Paul fashion campaign">
+      </div>
+
+      <div class="gallery-item">
+        <img src="images/JP10.jpg" alt="John Paul model portrait">
+      </div>
+
+      <div class="gallery-item">
+        <img src="images/JP11.jpg" alt="John Paul fashion campaign model">
+      </div>
+
+      <div class="gallery-item">
+        <img src="images/JP4.jpg" alt="John Paul commercial campaign">
+      </div>
+
+      <div class="gallery-item">
+        <img src="images/JP3.jpg" alt="John Paul professional model">
+      </div>
+
+      <div class="gallery-item">
+        <img src="images/Jp new 3.jpg" alt="John Paul commercial fashion model">
+      </div>
+      <div class="gallery-item">
+        <img src="images/POLAROID1 (3).jpeg" alt="John Paul commercial fashion model">
+      </div>
+
+<div class="gallery-item">
+        <img src="images/IMG_1636.jpeg" alt="John Paul commercial fashion model">
+      </div>
+<div class="gallery-item">
+        <img src="images/POLAROID1 (1).jpeg" alt="John Paul commercial fashion model">
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- CONTACT / BOOKING -->
+  <section class="booking" id="contact">
+
+    <h2>Let's Work Together.</h2>
+
+    <p>
+      For bookings, campaigns, fashion shoots, commercial work
+      and collaborations, get in touch with John Paul.
+    </p>
+
+    <a
+      href="https://wa.me/2348107674578"
+      class="button"
+      target="_blank"
+    >
+      Book via WhatsApp
+    </a>
+
+    <div class="contact-links">
+
+      <a href="tel:+2348107674578">
+        08107674578
+      </a>
+
+      <a href="mailto:johnpaulalexodigbo92@gmail.com">
+        johnpaulalexodigbo92@gmail.com
+      </a>
+
+      <a
+        href="https://instagram.com/johnpaul.1234"
+        target="_blank"
+      >
+        @johnpaul.1234
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer>
+    © 2026 John Paul Alex Odigbo. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
