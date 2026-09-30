@@ -53,7 +53,22 @@ document.getElementById("instagram-link").href =
 
 document.getElementById("instagram-link").textContent =
   data.contact.instagram;
+    // Portfolio gallery
+    const gallery = document.getElementById("gallery");
 
+    data.portfolio_images.forEach(item => {
+      if (item.image) {
+        const galleryItem = document.createElement("div");
+        galleryItem.className = "gallery-item";
+
+        const image = document.createElement("img");
+        image.src = item.image;
+        image.alt = item.alt;
+
+        galleryItem.appendChild(image);
+        gallery.appendChild(galleryItem);
+      }
+    });
   })
   .catch(error => {
     console.error("Could not load portfolio content:", error);
