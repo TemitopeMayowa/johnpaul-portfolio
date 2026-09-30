@@ -19,65 +19,69 @@
     "instagram": "@johnpaul.1234"
   },
   "portfolio_images": [
-  {
-    "image": "/images/IMG_1630.jpeg",
-    "alt": "John Paul fashion model"
-  },
-  {
-    "image": "/images/IMG_4252.jpeg",
-    "alt": "John Paul commercial model"
-  },
-  {
-    "image": "/images/JP 1.jpg",
-    "alt": "John Paul male model"
-  },
-  {
-    "image": "/images/Jp new 2.jpg",
-    "alt": "John Paul fashion photoshoot"
-  },
-  {
-    "image": "/images/IMG_4250.jpeg",
-    "alt": "John Paul model portfolio"
-  },
-  {
-    "image": "/images/IMG_4287.jpeg",
-    "alt": "John Paul commercial photoshoot"
-  },
-  {
-    "image": "/images/JP2.jpg",
-    "alt": "John Paul fashion campaign"
-  },
-  {
-    "image": "/images/JP10.jpg",
-    "alt": "John Paul model portrait"
-  },
-  {
-    "image": "/images/JP11.jpg",
-    "alt": "John Paul fashion campaign model"
-  },
-  {
-    "image": "/images/JP4.jpg",
-    "alt": "John Paul commercial campaign"
-  },
-  {
-    "image": "/images/JP3.jpg",
-    "alt": "John Paul professional model"
-  },
-  {
-    "image": "/images/Jp new 3.jpg",
-    "alt": "John Paul commercial fashion model"
-  },
-  {
-    "image": "/images/POLAROID1 (3).jpeg",
-    "alt": "John Paul commercial fashion model"
-  },
-  {
-    "image": "/images/IMG_1636.jpeg",
-    "alt": "John Paul commercial fashion model"
-  },
-  {
-    "image": "/images/POLAROID1 (1).jpeg",
-    "alt": "John Paul commercial fashion model"
-  }
+    {
+      "image": "/images/IMG_1630.jpeg",
+      "alt": "John Paul fashion model"
+    },
+    {
+      "image": "/images/IMG_4252.jpeg",
+      "alt": "John Paul commercial model"
+    },
+    {
+      "image": "/images/JP 1.jpg",
+      "alt": "John Paul male model"
+    },
+    {
+      "image": "/images/Jp new 2.jpg",
+      "alt": "John Paul fashion photoshoot"
+    },
+    {
+      "image": "/images/IMG_4250.jpeg",
+      "alt": "John Paul model portfolio"
+    },
+    {
+      "image": "/images/IMG_4287.jpeg",
+      "alt": "John Paul commercial photoshoot"
+    },
+    {
+      "image": "/images/JP2.jpg",
+      "alt": "John Paul fashion campaign"
+    },
+    {
+      "image": "/images/JP10.jpg",
+      "alt": "John Paul model portrait"
+    },
+    {
+      "image": "/images/JP11.jpg",
+      "alt": "John Paul fashion campaign model"
+    },
+    {
+      "image": "/images/JP4.jpg",
+      "alt": "John Paul commercial campaign"
+    },
+    {
+      "image": "/images/JP3.jpg",
+      "alt": "John Paul professional model"
+    },
+    {
+      "image": "/images/Jp new 3.jpg",
+      "alt": "John Paul commercial fashion model"
+    },
+    {
+      "image": "/images/POLAROID1 (3).jpeg",
+      "alt": "John Paul commercial fashion model"
+    },
+    {
+      "image": "/images/IMG_1636.jpeg",
+      "alt": "John Paul commercial fashion model"
+    },
+    {
+      "image": "/images/POLAROID1 (1).jpeg",
+      "alt": "John Paul commercial fashion model"
+    },
+    {
+      "image": "/images/IMG_3559 (1).jpeg",
+      "alt": "JOHNPAUL"
+    }
   ]
 }
