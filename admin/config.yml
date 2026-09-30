@@ -12,7 +12,7 @@ collections:
     files:
       - name: "content"
         label: "Portfolio Content"
-        file: "content/portfolio.yml"
+        file:  "content/portfolio.json"
         fields:
 
           - label: "Personal Information"
