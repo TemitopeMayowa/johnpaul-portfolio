@@ -33,6 +33,27 @@ document.getElementById("shoe-size").textContent =
 document.getElementById("eyes").textContent =
   data.measurements.eyes;
 
+    document.getElementById("whatsapp-link").href =
+  "https://wa.me/" + data.contact.whatsapp;
+
+document.getElementById("phone-link").href =
+  "tel:+" + data.contact.whatsapp;
+
+document.getElementById("phone-link").textContent =
+  data.contact.whatsapp.replace("234", "0");
+
+document.getElementById("email-link").href =
+  "mailto:" + data.contact.email;
+
+document.getElementById("email-link").textContent =
+  data.contact.email;
+
+document.getElementById("instagram-link").href =
+  "https://instagram.com/" + data.contact.instagram.replace("@", "");
+
+document.getElementById("instagram-link").textContent =
+  data.contact.instagram;
+
   })
   .catch(error => {
     console.error("Could not load portfolio content:", error);
