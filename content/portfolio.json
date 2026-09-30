@@ -19,7 +19,6 @@
     "instagram": "@johnpaul.1234"
   },
   "portfolio_images": [
-    "portfolio_images": [
   {
     "image": "/images/IMG_1630.jpeg",
     "alt": "John Paul fashion model"
@@ -80,6 +79,5 @@
     "image": "/images/POLAROID1 (1).jpeg",
     "alt": "John Paul commercial fashion model"
   }
-]
   ]
 }
